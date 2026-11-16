@@ -65,7 +65,7 @@ ADMIN_IDS = ids("ADMIN_IDS")      # кто имеет доступ к базе; 
 GROUP_IDS = ids("GROUP_IDS")      # в каких чатах модерировать; пусто = во всех
 LLM_API_KEY = os.getenv("LLM_API_KEY", "")
 LLM_BASE_URL = os.getenv("LLM_BASE_URL", "https://api.groq.com/openai/v1").rstrip("/")
-LLM_MODEL = os.getenv("LLM_MODEL", "llama-3.3-70b-versatile")
+LLM_MODEL = os.getenv("LLM_MODEL", "openai/gpt-oss-120b")
 CHAT_TOPIC = os.getenv(
     "CHAT_TOPIC",
     "заработок на нейросетях (способы, схемы, инструменты, промпты, кейсы) и наши проекты: "
